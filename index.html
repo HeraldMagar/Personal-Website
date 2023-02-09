@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahan Raj Magar</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+     <header>
+          <nav>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#education">Education</a></li>
+               <li><a href="#contact">Contact</a></li>
+          </nav>
+     </header>
+     <section class="one">        
+            <h1 style="color: white;">RAHAN RAJ <br><br> MAGAR</h1>
+               <p id="greeting">Hello</p>
+               <script>
+                    document.getElementById("greeting").style.color="white";
+                    const today = new Date();
+                    const curHr = today.getHours();
+                    if (curHr < 12) {
+                         document.getElementById("greeting").innerHTML = "Good morning! Welcome! to my portfolio page";
+                    }else if (curHr < 18) {
+                         document.getElementById("greeting").innerHTML = "Good afternoon!  Welcome! to my portfolio page";
+                    } else {
+                         document.getElementById("greeting").innerHTML = "Good evening!  Welcome! to my portfolio page";
+                    }
+               </script>
+
+    </section>
+
+    <section class="two">
+        <br>
+        <h1 id="about">About Me</h1>
+          <img src="me.jpg" alt="me" style="width:300px; height:300px;" >
+          <h2>Hello! I am Rahan Raj Magar born and raised in Kathmandu. I completed my secondary school from Arunima Secondary 
+           School and high school from Naya Aayam Multiple Institute (NAMI).
+           Interested in computers and technology from a very young age . I always wondered how things worked and gets automated. And Welcome! to my Portfolio page.</h2>
+    </section>
+
+    <section class="three" style="color: white;">
+          <br>
+          <h1 id="projects">Projects</h1>
+          <div class="projects">
+               <a href="https://classroom.google.com/u/2/c/NTY5MDQ3NDMzNzgz/sp/NTA3NTg4ODk1MDE4/all"><img style="height: 300px; width: 300px;" src="code.jpg"></a>
+          </div>
+          <div class="projects">
+               <a href="https://classroom.google.com/u/2/c/NTY5MDUxMzY0ODcz/sp/NTA3NTg4ODk1MDE4/all"><img style="height: 300px; width: 300px;" src="webtec.jpg"></a>
+          </div>
+          <div class="projects">
+               <a href="https://wordpress.com/posts/magartheblogger.wordpress.com"><img style="height: 300px; width: 300px;" src="blog.jpg"></a>
+          </div>
+    </section>
+    
+    <section class="four" style="color: white;">
+          <br>
+          <h1 id="education">Education</h1>
+
+          <div class="school">
+          <h2>School</h2>
+          <p>Arunima Secondary School (completed)</p>
+          <img src="Arunima.jpg" alt="School" style="width:300px; height:300px;" >
+          </div>
+
+          <div class="school">
+          <h2>Higher School</h2>
+          <p>Nami College (Completed)</p>
+          <img src="Nami.jpg" alt="high School" style="width:300px; height:300px;" >
+          </div>
+
+          <div class="school">
+               <h2>College</h2>
+               <p>Herald College (On going)</p>
+               <img src="herald.jpg" alt="College" style="width:300px; height:300px;" >
+               </div>
+
+    </section>
+    <section class="five">
+          <br>
+          <h1 id="contact">Contact me</h1>
+          <div class="contact">
+               <p>If you wanna reach out to me please fill the form</p>
+               <form class="form">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="lname">Leave a message:</label><br>
+                    <input type="text" id="message" name="message"><br><br>
+                    <input type="submit" value="Submit">
+                  </form> 
+          </div>
+          <div class="contact">
+               <h2>Email</h2>
+               <a href="magarrohan139@gmail.com" style="color: white;">myemail@gmail.com</a>
+               <h2>phone</h2>
+               <p>+977-987654321</p>
+          </div>
+    </section>
+    <section class="six">
+     <br>
+     <h1>Refrences</h1>
+     <p>  School logos <br>
+          Arunima Educational Foundation. (2022). Arunima website. Retrieved from About: http://www.arunima.edu.np/<br>
+          Herald College. (2022). About us. Retrieved from https://heraldcollege.edu.np/<br>
+          Nami College. (2020). About us. Retrieved from Nami college website: https://nami.edu.np/<br>
+     </p>
+     <p>
+          pictures from projects section <br>
+          free to use pictures
+     </p>
+
+    </section>
+    <footer><p>The website was created by Rahan Raj Magar</p></footer>
+</body>
+</html>
